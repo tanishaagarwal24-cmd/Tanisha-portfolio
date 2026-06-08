@@ -1,69 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Tanisha Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tanisha Agarwal | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<header>
-    <h2 class="logo">My Portfolio</h2>
-    <nav>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#gallery">Gallery</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-    </nav>
-</header>
+<!-- HERO SECTION -->
+<section class="hero">
+  <div class="glass">
 
-<!-- HERO -->
-<section id="home" class="hero">
-    <div class="hero-text">
-        <h1>Hi, I'm Tanisha 👋</h1>
-        <p>AI & Web Developer | Python | Flask | MySQL</p>
-        <a href="#projects" class="btn">Explore Work</a>
+    <div class="profile">
+      <img src="assets/profile.jpg.jpeg" alt="Profile Photo">
     </div>
 
-    <img src="images/profile.jpg" class="profile-img">
+    <h1>Hi, I'm <span>Tanisha</span></h1>
+    <p>Aspiring Web & App Developer | AI & Data Science Student</p>
+
+    <div class="buttons">
+      <a href="#contact">Contact Me</a>
+      <a href="#projects">View Projects</a>
+    </div>
+
+  </div>
 </section>
 
 <!-- ABOUT -->
-<section id="about" class="about">
-    <h2>About Me</h2>
-    <p>
-        I am a B.Tech AI & Data Science student passionate about web development,
-        backend systems, and building real-world applications.
-    </p>
+<section class="section">
+  <h2>About Me</h2>
+  <p>
+    I am a 2nd-year B.Tech student in Artificial Intelligence & Data Science at ICFAI Tech, Hyderabad.
+    I specialize in backend development using Flask and MySQL.
+  </p>
 </section>
 
-<!-- GALLERY (LIKE YOUR EXAMPLE WEBSITE) -->
-<section id="gallery" class="gallery">
-    <h2>Gallery</h2>
-
-    <div class="grid">
-        <img src="images/project1.jpg">
-        <img src="images/project2.jpg">
-        <img src="images/project1.jpg">
-        <img src="images/project2.jpg">
-    </div>
+<!-- SKILLS -->
+<section class="section dark">
+  <h2>Skills</h2>
+  <div class="grid">
+    <div class="card">Python</div>
+    <div class="card">Java</div>
+    <div class="card">Flask</div>
+    <div class="card">HTML</div>
+    <div class="card">CSS</div>
+    <div class="card">MySQL</div>
+  </div>
 </section>
 
-<!-- PROJECTS -->
-<section id="projects" class="projects">
-    <h2>Projects</h2>
+<!-- PROJECT -->
+<section id="projects" class="section">
+  <h2>Projects</h2>
 
-    <div class="card">Flask Web App</div>
-    <div class="card">Portfolio Website</div>
+  <div class="project-card">
+    <h3>Flask Web App with MySQL</h3>
+    <p>CRUD operations using Flask + database integration.</p>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section class="section dark">
+  <h2>Education</h2>
+  <p>ICFAI Tech, Hyderabad (2024 - Present)</p>
+  <p>B.Tech in AI & Data Science</p>
 </section>
 
 <!-- CONTACT -->
-<section id="contact" class="contact">
-    <h2>Contact</h2>
-    <p>Email: ta7769184@gmail.com</p>
+<section id="contact" class="section">
+  <h2>Contact</h2>
+  <p>Email: ta7769184@gmail.com</p>
+  <p>Phone: 9347863737</p>
 </section>
+
+<footer>
+  <p>© 2026 Tanisha Agarwal | Portfolio</p>
+</footer>
 
 <script src="script.js"></script>
 </body>
