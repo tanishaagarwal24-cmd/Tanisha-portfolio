@@ -2,63 +2,66 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My Portfolio</title>
+    <title>Tanisha Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<!-- NAVBAR -->
 <header>
     <h2 class="logo">My Portfolio</h2>
     <nav>
         <a href="#home">Home</a>
         <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
     </nav>
 </header>
 
-<!-- HERO SECTION -->
+<!-- HERO -->
 <section id="home" class="hero">
     <div class="hero-text">
         <h1>Hi, I'm Tanisha 👋</h1>
         <p>AI & Web Developer | Python | Flask | MySQL</p>
-        <button onclick="scrollToSection()">View My Work</button>
+        <a href="#projects" class="btn">Explore Work</a>
     </div>
 
-    <div class="hero-img">
-        <img src="images/profile.jpg" alt="Profile Photo">
-    </div>
+    <img src="images/profile.jpg" class="profile-img">
 </section>
 
 <!-- ABOUT -->
 <section id="about" class="about">
     <h2>About Me</h2>
     <p>
-        I am a B.Tech student in AI & Data Science passionate about web development,
-        backend systems, and building real-world applications using Python, Flask, HTML, CSS, and MySQL.
+        I am a B.Tech AI & Data Science student passionate about web development,
+        backend systems, and building real-world applications.
     </p>
+</section>
+
+<!-- GALLERY (LIKE YOUR EXAMPLE WEBSITE) -->
+<section id="gallery" class="gallery">
+    <h2>Gallery</h2>
+
+    <div class="grid">
+        <img src="images/project1.jpg">
+        <img src="images/project2.jpg">
+        <img src="images/project1.jpg">
+        <img src="images/project2.jpg">
+    </div>
 </section>
 
 <!-- PROJECTS -->
 <section id="projects" class="projects">
     <h2>Projects</h2>
 
-    <div class="card">
-        <h3>Flask Web App</h3>
-        <p>CRUD operations with MySQL database integration.</p>
-    </div>
-
-    <div class="card">
-        <h3>Portfolio Website</h3>
-        <p>Responsive personal portfolio using HTML, CSS & JS.</p>
-    </div>
+    <div class="card">Flask Web App</div>
+    <div class="card">Portfolio Website</div>
 </section>
 
 <!-- CONTACT -->
 <section id="contact" class="contact">
-    <h2>Contact Me</h2>
+    <h2>Contact</h2>
     <p>Email: ta7769184@gmail.com</p>
 </section>
 
